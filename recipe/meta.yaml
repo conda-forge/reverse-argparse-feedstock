@@ -1,12 +1,12 @@
 {% set name = "reverse-argparse" %}
-{% set version = "2.0.6" %}
+{% set version = "2.0.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  sha256: c76c59d0cbc1c9e69f5686d36334f6b47ccc7259ad10b11b0585244d7ccc51f6
+  sha256: 1140064b00d6e5abad698e5d1673fe1541a023f22ffb0546e226b0814dd8f76f
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/reverse_argparse-{{ version }}.tar.gz
 
 build:
